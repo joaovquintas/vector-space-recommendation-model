@@ -28,17 +28,16 @@ Learn and implement the fundamentals of **Recommendation Systems** and **Text Ve
 
 The **Mean Recommendation Similarity (MRS)** quantifies how similar the recommended items are to the base item using cosine similarity.
 
-Mathematically:
+**Mathematically:**
 
-\[
-MRS = \frac{1}{N} \sum_{i=1}^{N} \frac{1}{k} \sum_{j=1}^{k} \text{cosine}(v_i, v_j)
-\]
+MRS = (1 / N) * Σᵢ₌₁ᴺ (1 / k) * Σⱼ₌₁ᵏ cosine(vᵢ, vⱼ)
 
 Where:
-- \( N \) = total number of items evaluated  
-- \( k \) = number of recommendations per item  
-- \( v_i \) = vector representation of the base movie  
-- \( v_j \) = vector representation of each recommended movie  
+
+- **N** = total number of items evaluated  
+- **k** = number of recommendations per item  
+- **vᵢ** = vector representation of the base movie  
+- **vⱼ** = vector representation of each recommended movie  
 
 ### Why this metric
 
