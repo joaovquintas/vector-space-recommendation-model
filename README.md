@@ -10,7 +10,7 @@ Learn and implement the fundamentals of **Recommendation Systems** and **Text Ve
 
 ---
 
-## ⚙️ Project Pipeline
+## Project Pipeline
 
 1. **Load the data** (`dataset_filmes.csv` and `dataset_elenco.csv`)  
 2. **Data cleaning & preprocessing** — handle missing values, parse JSON-like fields using `ast.literal_eval`  
@@ -22,7 +22,7 @@ Learn and implement the fundamentals of **Recommendation Systems** and **Text Ve
 
 ---
 
-## 📊 Evaluation Metric — *Mean Recommendation Similarity (MRS)*
+## Evaluation Metric — *Mean Recommendation Similarity (MRS)*
 
 ### Definition
 
@@ -60,7 +60,7 @@ Possible causes:
 
 ---
 
-## 🧩 Technologies Used
+## Technologies Used
 
 - Python 3  
 - Pandas, NumPy  
